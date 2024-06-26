@@ -3,28 +3,61 @@
 <head>
     <title>Mama Cee's resturant</title>
 </head>
-    <body>
+    <body bgcolor="#6E8B3D" style ="margin: auto; width: 50%;">
         <header>
             <h1>Mama Cee's</h1>
-            <img id="header-img" src="https://media.istockphoto.com/id/91130832/photo/restaurant.webp?s=170667a&w=0&k=20&c=Ek6hgOLBIlodp0iWpsvVl7i0etGpP1qE0k-vtQ6Hl_I=" width="" alt="A image of mama cee's front patio">
+            <img id="header-img" src="https://media.istockphoto.com/id/91130832/photo/restaurant.webp?s=170667a&w=0&k=20&c=Ek6hgOLBIlodp0iWpsvVl7i0etGpP1qE0k-vtQ6Hl_I=" width="" alt="A image of mama cee's front patio" >
             <nav>
-                <a href="#menu">Menu</a>
-                <a href="#order-form">Orders</a>
-                <a href="#about-us">welcome</a>
+                <ul>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#order-form">Orders</a></li>
+                        <li><a href="#about-us">welcome</a></li>
+                </ul>
             </nav>
 
         </header>
         <main>
             <section id="#about-us" class="welcome">
-                <p>Welcome to Mama Cee's, where every meal feels like you're sitting down at your mom's kitchen table. Located in the heart of [Your City], we serve up hearty, homemade dishes that remind you of home.</p><br>
+                <h2>Welcome</h2>
+                <p>Mama Cee's is where every meal feels like you're sitting down at your mom's kitchen table. Located in the heart of [Your City], we serve up hearty, homemade dishes that remind you of home.</p><br>
                 <p>At Mama Cee's, it's all about family, friends, and great food. Our cozy spot is perfect for enjoying comfort food like homemade pasta, wood-fired pizza, and delicious desserts, all made from fresh ingredients and family recipes passed down through the generations.</p><br>
                 <p>Whether you're here for a family dinner, a casual meal with friends, or just craving some good home cooking, Mama Cee's is your go-to place. Come on in, relax, and let us take care of you with a warm meal and a friendly smile.</p><br>
             </section>
-            <section id="#menu" class="food">
+            <section id="#menu" class="food"> <!--- style= "width: 2000px; height: 1000px; border: 2px solid black; padding: 10px; margin: 10px;"-->
+                <h2>Menu</h2>
+                <article>
+                    <img src="" alt=""> 
+                    <h3>Food name</h3>
+                    <p> Item descripton: 1-2 sentences </p>
+                    <p>Price</p>
+                </article>
+                <article>
+                    <img src="" alt=""> 
+                    <h3>Food name</h3>
+                    <p> Item descripton: 1-2 sentences </p>
+                    <p>Price</p>
+                </article>
+                <article>
+                    <img src="" alt=""> 
+                    <h3>Food name</h3>
+                    <p> Item descripton: 1-2 sentences </p>
+                    <p>Price</p>
+                </article>                
             </section>
-            <section id="#order-form" class="ordering">
-                <form>
-                    <Label>Name</Label>
+            <section id="#order-form" class="ordering" style ="margin: auto; width: 50%;">
+                <form >
+                    <h2>Let mama make you something.</h2>
+                    <label>Name:</label><input type="text" required><br>
+                    <label>Delivery Address:</label><input type="text" required ><br>
+                    <Label>City:</Label><input type="text" required><br>
+                    <ul>
+                         <li><label>Number 1</label><input type="number" name="number" value="0" min="0" max="99"></li>
+                         <li><label>Number 2</label><input type="number" name="number" value="0" min="0" max="99"></li>
+                         <li><label>Number 3</label><input type="number" name="number" value="0" min="0" max="99"></li>
+                    </ul>
+
+                    <label>Special request here!</label><textarea rows="7" cols="40"></textarea> 
+                    <input type="submit" value="Go To Checkout">
                 </form>
 
             </section>
@@ -32,13 +65,16 @@
         <footer>
             <h6>Mamas Socials</h6>
             <p><a href="https://www.twitter.com">
-                <img src="https://cdn4.iconfinder.com/data/icons/social-media-black-white-2/1227/X-512.png" alt="www.twiter.com" width="25" height="25" style="margin-right: 10px;>
+                <img src="https://cdn4.iconfinder.com/data/icons/social-media-black-white-2/1227/X-512.png" alt="twitter" width="25" height="25" style="margin-right: 10px;>
                 </a>
-                <a href="https://www.instagram.com">
-                <img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Instagram_colored_svg_1-512.png" alt="www.instagram.com" width="25" height="25" style="margin-right: 10px;>
+                <a href= "https://www.instagram.com">
+                <img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Instagram_colored_svg_1-512.png" alt="instagram" width="25" height="25" style="margin-right: 10px;>
                 </a>    
             </p><br><br>
             <p><a href="Randomemail@gmail.com">Send mama an email</a>
+            <br><br>
+
+            <p>Made with love by codedex user BlueCollarGiant</p>
             
         </footer>
     </body>
